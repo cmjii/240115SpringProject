@@ -1,0 +1,54 @@
+
+1월 10, 2024 09:21:30.721 NEW SESSION
+1월 10, 2024 09:21:30.721 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 10, 2024 09:24:37.799 [14304:7848:0110/092437.799:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 10:30:29.401 [14304:7848:0110/103029.401:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 12:49:14.985 [14304:7848:0110/124914.985:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 12:49:15.578 [14304:7848:0110/124915.577:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 12:49:30.181 [14304:7848:0110/124930.181:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 12:49:39.20 [14304:7848:0110/124939.020:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 12:56:18.430 [14304:7848:0110/125618.430:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 13:27:25.710 [14304:7848:0110/132725.710:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 13:27:33.196 [14304:7848:0110/132733.196:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 13:29:01.750 [14304:7848:0110/132901.750:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+
+1월 11, 2024 09:24:34.933 NEW SESSION
+1월 11, 2024 09:24:34.934 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 11, 2024 11:17:11.764 [12188:12400:0111/111711.764:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+
+1월 12, 2024 09:16:39.469 NEW SESSION
+1월 12, 2024 09:16:39.469 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 12, 2024 10:44:27.194 [10120:5276:0112/104427.193:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 12, 2024 11:14:44.806 [10120:5276:0112/111444.805:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 12, 2024 11:15:37.479 [10120:5276:0112/111537.479:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 12, 2024 13:56:25.281 [10120:5276:0112/135625.281:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Unsupported URL scheme"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+1월 12, 2024 14:59:54.163 [10120:5276:0112/145954.163:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 12, 2024 15:13:54.219 [10120:5276:0112/151354.219:ERROR:device_event_log_impl.cc(192)] [15:13:54.219] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+1월 12, 2024 15:13:54.532 [10120:5276:0112/151354.532:ERROR:web_contents_delegate.cc(255)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+1월 12, 2024 15:13:54.532 [10120:5276:0112/151354.532:ERROR:web_contents_delegate.cc(255)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+1월 12, 2024 15:14:32.101 [10120:5276:0112/151432.101:ERROR:device_event_log_impl.cc(192)] [15:14:32.101] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+1월 12, 2024 15:21:54.803 [10120:5276:0112/152154.803:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error
+1월 12, 2024 15:21:55.658 [10120:5276:0112/152155.658:ERROR:device_event_log_impl.cc(192)] [15:21:55.657] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+
+1월 15, 2024 09:06:25.978 NEW SESSION
+1월 15, 2024 09:06:25.978 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 15, 2024 09:07:35.466 [12048:7308:0115/090735.466:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 15, 2024 09:07:36.65 [12048:7308:0115/090736.065:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 15, 2024 09:42:00.423 [12048:7308:0115/094200.423:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 15, 2024 10:58:08.853 [12048:12224:0115/105808.853:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+1월 15, 2024 11:33:23.259 기존 브라우저 세션에서 여는 중입니다.
+1월 15, 2024 11:33:26.712 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 15, 2024 12:43:54.690 [12416:9856:0115/124354.690:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 15, 2024 14:10:10.637 [12416:9856:0115/141010.636:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 15, 2024 14:54:27.369 [12416:9856:0115/145427.368:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:27.585 [12416:9856:0115/145427.585:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:27.686 [12416:9856:0115/145427.685:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:27.788 [12416:9856:0115/145427.788:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:27.906 [12416:9856:0115/145427.905:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:28.16 [12416:9856:0115/145428.016:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:28.535 [12416:9856:0115/145428.535:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:28.713 [12416:9856:0115/145428.713:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:29.646 [12416:9856:0115/145429.645:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:30.174 [12416:9856:0115/145430.174:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:31.641 [12416:9856:0115/145431.641:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 14:54:33.632 [12416:9856:0115/145433.632:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
