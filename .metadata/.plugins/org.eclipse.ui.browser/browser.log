@@ -52,3 +52,5 @@
 1월 15, 2024 14:54:30.174 [12416:9856:0115/145430.174:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
 1월 15, 2024 14:54:31.641 [12416:9856:0115/145431.641:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
 1월 15, 2024 14:54:33.632 [12416:9856:0115/145433.632:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 15:09:29.352 [12416:9856:0115/150929.352:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
+1월 15, 2024 15:09:56.708 [12416:9856:0115/150956.708:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.24 s for first_image_paint 0.236 s
