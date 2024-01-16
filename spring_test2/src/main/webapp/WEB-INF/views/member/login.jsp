@@ -33,3 +33,10 @@
  </c:if>
  
  </div>
+ 
+ <script>
+const ok = `<c:out value="${modifyOK}" />`;
+if(ok === "1"){
+	alert("수정완료 다시 로그인해주세요.");
+}
+</script>

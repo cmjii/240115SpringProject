@@ -15,6 +15,7 @@
 	<select id="selectEmail" resultType="com.myweb.www.security.MemberVO">
 		select * from member where email = #{email}
 	</select>
+	
 	<select id="selectAuths" resultType="com.myweb.www.security.AuthVO">
 		select * from auth_member where email = #{email}
 	</select>
@@ -23,4 +24,25 @@
 		update member set last_login = now() where email = #{email}
 	</update>
 
+	<select id="selectAllList" resultType="com.myweb.www.security.MemberVO">
+		select * from member
+	</select>
+	
+	<update id="update">
+		update member set nick_name = #{nickName} where email = #{email}
+	</update>
+	
+	<update id="passupdate">
+		update member set nick_name = #{nickName}, pwd = #{pwd} where email = #{email}
+	</update>
+	
+	<delete id="deleteAuth">
+		delete from auth_member where email = #{email}
+	</delete>
+	
+	<delete id="deleteMem">
+		delete from member where email = #{email}
+	</delete>
+	
+	
 </mapper>

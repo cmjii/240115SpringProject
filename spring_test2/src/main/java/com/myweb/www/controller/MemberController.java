@@ -1,12 +1,23 @@
 package com.myweb.www.controller;
 
-import javax.servlet.http.HttpServletRequest;
+import java.security.Principal;
+import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
+import org.springframework.security.web.savedrequest.HttpSessionRequestCache;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.myweb.www.security.MemberVO;
@@ -23,6 +34,12 @@ public class MemberController {
 	
 	private final MemberService msv;
 	private final BCryptPasswordEncoder bcEncoder;
+	
+	//로그아웃 메서드 만들기 (쓸 곳이 한개 이상이기 때문에 따로 빼서 필요할 때 메서드 사용)
+	private void logout (HttpServletRequest request, HttpServletResponse respones) {
+		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+		new SecurityContextLogoutHandler().logout(request, respones, authentication);
+	}
 	
 	@GetMapping("/register")
 	public void register() {}
@@ -48,4 +65,50 @@ public class MemberController {
 	
 		
 	}
+	
+	
+	//@RequestParam("email")String email : jsp에서 ? 로 달고오면 이 방법 사용
+	
+	@GetMapping("/modify")
+	public void modify(Principal p,Model m) {
+		log.info("getName : >>>>>>>>>>>>>>>> "+p.getName());
+		String email = p.getName();
+		m.addAttribute("mvo",msv.detail(email));	
+
+	}
+	
+	@PostMapping("/modify")
+	public String modify(MemberVO mvo, HttpServletRequest request, HttpServletResponse respones, RedirectAttributes re) {
+		int isok = 0;
+		if(mvo.getPwd().isEmpty()) {
+			//비번 없는 업데이트 진행
+			isok =  msv.update(mvo);
+		}else {
+			//비번을 다시 인코딩 하여 업데이트 진행
+			mvo.setPwd(bcEncoder.encode(mvo.getPwd()));
+			isok= msv.passupdate(mvo);
+		}
+		//로그아웃 진행 (만들어놓은 로그아웃 메서드 호출)
+		logout(request, respones);
+		
+		re.addFlashAttribute("modifyOK", isok);
+		
+		
+		return "redirect:/member/login";
+	}
+	
+	@GetMapping("/list")
+	public void list(Model m) {
+		m.addAttribute("list",msv.list());
+	}
+	
+	@GetMapping("/delete")
+	public String delete(Principal p, HttpServletRequest request, HttpServletResponse respones) {
+		String email = p.getName();
+		msv.delete(email);
+		//로그아웃 메서드 호출
+		logout(request, respones);
+		return "redirect:/member/login";
+	}
+	
 }
